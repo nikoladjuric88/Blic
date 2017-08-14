@@ -1,0 +1,868 @@
+body {
+    margin: 0px;
+    background-color: #F2F2F2;
+    font-family: tahoma, sans-serif;
+}
+
+#container {
+    width: 968px;
+    margin: 0px auto;
+    height: 2200px;
+    background-color: white;
+}
+
+#top {
+    background-color: rgb(173, 3, 33);
+    width: 968px;
+    height: 30px;
+}
+
+#top ul {
+    margin: 0px 0px 0px 0px;
+    padding: 2px 0px 0px 6px;
+    list-style-type: none;
+}
+
+#top ul li {
+    display: inline;
+    margin: 1px 0px 0px -3px;
+}
+
+#top ul li a {
+    margin: 2px 0px 0px 0px;
+    padding: 2px 5px 4px 4px;
+    font-size: 11px;
+    text-decoration: none;
+    color: white;
+    border: brown solid 2px;
+    background: linear-gradient(#DF0101, #B40404);
+}
+
+#top ul li a:hover {
+    background: #DF0101;
+}
+
+#paragraph {
+    position: relative;
+    bottom: 20px;
+    left: 685px;
+    font-size: 9px;
+    color: white;
+}
+
+#search {
+    position: relative;
+    bottom: 45px;
+    left: 781px;
+}
+
+#btnSearch {
+    position: relative;
+    bottom: 45px;
+    left: 775px;
+    background-color: #B40404;
+    color: white;
+}
+
+#logo {
+    background-color: #DF0101;
+}
+
+#logoPics {
+    width: 235px;
+}
+
+#talentPic {
+    width: 664px;
+    height: 80px;
+    position: relative;
+    bottom: 3px;
+    left: 54px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#mainCards {
+    background: #D8D8D8;
+}
+
+#mainCards table {
+    width: 900px;
+}
+
+#mainCards td {
+    margin: 0px 0px 0px 3px;
+    padding: 0px 0px 0px 3px;
+}
+
+#mainCards a {
+    float: left;
+    height: 20px;
+    margin: 7px 0px 0px 0px;
+    padding: 1px 11px 0px 11px;
+    font-size: 12px;
+    text-align: center;
+    background-color: #F2F2F2;
+    text-decoration: none;
+    color: black;
+}
+
+#openCard {
+    color: red;
+    position: relative;
+    bottom: 12;
+}
+
+#heartP {
+    position: relative;
+    bottom: 31;
+    padding: 1px 8px 0px 28px;
+}
+
+#heartPic {
+    position: relative;
+    right: 27;
+}
+
+#vremeplov {
+    position: absolute;
+    height: 21;
+    right: 469;
+    top: 133;
+}
+
+#blicTv{
+    position: absolute;
+    right: 560;
+    top: 133;
+    height: 20;
+    width: 40;
+}
+
+#newsCards {
+    margin: -18px 0px 0px 0px;
+    background: white;
+    height: 30px;
+    width: 968px;
+    border-bottom: solid 0px #000;
+}
+
+#newsCards ul {
+    list-style-type: none;
+    padding: 0px 0px 0px 0px;
+}
+
+#newsCards ul li a {
+    float: left;
+    margin: 1px 0px 0px 6px;
+    padding: 7px 0px 0px 4px;
+    font-size: 11px;
+    text-align: left;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    width: 85px;
+    height: 20px;
+}
+
+#newsCards ul li a:hover {
+    text-decoration: underline;
+}
+
+#actual {
+    border-collapse: collapse;
+    border-right: solid white;
+}
+
+#actual td {
+    width: 240;
+    border: solid #D8D8D8;
+    border-width: 3px 2px 2px 0px;
+}
+
+.importantPics {
+    float: left;
+    margin: 10px 0px 7px 7px;
+}
+
+.importantPics:hover {
+    opacity: 0.5;
+}
+
+.sentence {
+    float: left;
+    position: relative;
+    left: 25;
+    text-align: center;
+    color: red;
+    width: 110;
+    font-size: 12px;
+}
+
+.sentence:hover {
+    text-decoration: underline;
+}
+
+#center {
+    float: left;
+    font-size: 14px;
+    width: 470px;
+    margin: 0px 0px 0px 10px;
+}
+
+#center p {
+    margin: 7px 0px 0px 0px;
+}
+
+#game {
+    width: 460px;
+    height: 270px;
+    background-image: url(pictures/kosarka.jpg);
+}
+
+#game ul {
+    padding: 0px 0px 0px 0px;
+    list-style-type: none;
+}
+
+#game ul li a {
+    margin: 0px 2px 0px 0px;
+    padding-top: 3px;
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    width: 70px;
+    color: #424242;
+    height: 20px;
+    background-color: rgba(255, 255, 255, .4);
+}
+
+#game ul li a:hover {
+    color: white;
+}
+
+#link {
+    font-size: 20px;
+    color: red;
+    text-decoration: none;
+}
+
+#link:hover {
+    text-decoration: underline;
+}
+
+#table2 {
+    float: left;
+    position: relative;
+    top: 40;
+    border-collapse: collapse;
+}
+
+#table2 td {
+    height: 45;
+    width: 297;
+    border: solid #D8D8D8;
+    border-width: 1px;
+}
+
+.freshNews {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+#table2 td:hover {
+    background-color: #D8D8D8;
+}
+
+.spot {
+    color: red;
+}
+
+#theLatest {
+    background: linear-gradient(#D8D8D8, white);
+    padding: 10px 0px 10px 5px;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+#theLatest a:hover {
+    color: red;
+}
+
+#btnLatest {
+    position: absolute;
+    top: 285;
+    left: 948;
+    height: 25;
+    background: linear-gradient(#D8D8D8, white);
+    border-right: black solid 0px;
+    border-bottom: black solid 0px;
+    color: red;
+}
+
+#btnSport {
+    position: absolute;
+    top: 285;
+    left: 1020;
+    height: 25;
+    background: linear-gradient(#D8D8D8, white);
+    border-right: 0px;
+    border-bottom: 0px;
+}
+
+#newsPaper {
+    float: left;
+    margin: 10px 0px 0px 12px;
+}
+
+#table4 {
+    float: left;
+    margin: 10px 0px 0px 7px;
+    border-collapse: collapse;
+    border: #D8D8D8 solid 0.5px;
+    width: 170px;
+}
+
+.weather {
+    font-size: 12px;
+    padding: 0px 0px 0px 13px;
+    border-bottom: #D8D8D8 solid 0.5px;
+    height: 30px;
+}
+
+#weatherTitle {
+    padding: 5px 0px 0px 13px;
+    background: linear-gradient(#D8D8D8, white);
+    font-size: 14px;
+}
+
+.city {
+    float: left;
+    position: relative;
+    top: 16px;
+    right: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.city:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.degrees {
+    float: left;
+    position: relative;
+    top: 6px;
+    left: 15px;
+}
+
+#degreesNis {
+    float: left;
+    position: relative;
+    top: 6px;
+    left: 45px;
+}
+
+.pics {
+    float: left;
+    position: relative;
+    top: 6px;
+    left: 35px;
+}
+
+#picsNis {
+    float: left;
+    position: relative;
+    top: 6px;
+    left: 65px;
+}
+
+#weatherSentence {
+    float: left;
+    position: relative;
+    left: -7px;
+    color: black;
+    text-decoration: none;
+}
+
+#weatherSentence:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+#leisure {
+    width: 465;
+    height: 210;
+    float: left;
+    position: relative;
+    top: 10px;
+    border-bottom: #D8D8D8 solid 1px;
+}
+
+#down {
+    float: right;
+    width: 220px;
+    height: 200px;
+}
+
+#leisure1 {
+    border-bottom: #D8D8D8 solid 0.5px;
+}
+
+#leisure2 {
+    border-bottom: #D8D8D8 solid 0.5px;
+}
+
+#leisure p {
+    margin: 1;
+}
+
+.leisureText {
+    text-decoration: none;
+    color: red;
+    font-size: 13px;
+}
+
+.leisureTitle {
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+}
+
+#down td:hover {
+    background-color: #D8D8D8;
+}
+
+
+#advertisement {
+    float: left;
+    position: relative;
+    bottom: 130;
+    left: 7;
+    width: 310px;
+    height: 550px;
+}
+
+#comic {
+    float: right;
+    width: 175px;
+    border-bottom: solid 1px #D8D8D8;
+    margin-bottom: 7px;
+}
+
+#entry {
+    margin: 3px 0px 0px 0px;
+    height: 25px;
+    width: 160px;
+}
+
+#registration {
+    float: left;
+    height: 25;
+    width: 170;
+    padding: 10px 0px 0px 5px;
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+}
+
+#registration:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+#btnRegistration {
+    float: left;
+    margin: -28px 0px 5px 92px;
+    font-size: 13px;
+}
+
+#exchangeRate {
+    position: relative;
+    left: 12;
+    border: solid 1px #D8D8D8;
+    font-size: 12px;
+    width: 175px;
+    border-bottom-color: white;
+}
+
+#exchangeRate tr:nth-child(even) td {
+    background-color: #e7edf0;
+}
+
+#exchangeTitle {
+    font-size: 15;
+    padding: 5px 0px 5px 0px;
+}
+
+.currency {
+    margin-left: 15px;
+}
+
+.value {
+    margin-left: 25px;
+}
+
+#change {
+    float: left;
+    margin-left: 12px;
+    width: 173;
+    height: 60;
+    border: solid 1px #D8D8D8;
+    border-top-color: white;
+}
+
+#buy {
+    position: relative;
+    left: 3px;
+}
+
+#triangle {
+    position: relative;
+    left: 24px;
+    top: 3px;
+}
+
+#sell {
+    position: relative;
+    left: 43px;
+}
+
+#hundred {
+    position: relative;
+    top: 7px;
+    left: 3px;
+}
+
+#equal {
+    position: relative;
+    top: 12px;
+    left: 18px;
+}
+
+#amount {
+    position: relative;
+    left: 115px;
+    bottom: 24px;
+    font-size: 12;
+}
+
+#table5 {
+    float: left;
+    position: relative;
+    bottom: 310;
+    left: 7px;
+    width: 455px;
+    height: 310px;
+    border: #D8D8D8 solid 1px;
+    border-top: #D8D8D8 solid 3px;
+}
+
+#sportDown {
+    border-bottom: #D8D8D8 solid 1px;
+    height: 50px;
+    text-align: left;
+    font-size: 22;
+}
+
+#symbol {
+    padding-left: 23px;
+}
+
+#arbiter {
+    position: relative;
+    bottom: 22;
+}
+
+#arbiterText {
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    left: 3px;
+    top: -10px;
+}
+
+#arbiterText:hover {
+    text-decoration: underline;
+}
+
+.img {
+    float: left;
+    position: relative;
+    top: -4;
+}
+
+.img:hover {
+    opacity: 0.5;
+}
+
+.text:hover {
+    text-decoration: underline;
+}
+
+.text {
+    position: relative;
+    top: -7;
+    left: 5;
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+}
+
+#table3 {
+    float: left;
+    position: relative;
+    top: -75;
+    left: 19;
+    border-collapse: collapse;
+}
+
+#table3 td {
+    height: 45;
+    width: 297;
+    border: solid #D8D8D8;
+    border-width: 1px;
+}
+
+#table3 td:hover {
+    background-color: #D8D8D8;
+}
+
+#otherNews {
+    background: linear-gradient(#D8D8D8, white);
+    position: absolute;
+    top: 1316;
+    left: 942;
+    height: 30;
+    width: 294;
+    border: solid #D8D8D8;
+    border-width: 1px;
+    padding: 10px 0px 0px 5px;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+#otherNews:hover {
+    color: red;
+}
+
+#btnComments {
+    position: absolute;
+    top: 1125;
+    left: 942;
+    height: 25;
+    background: linear-gradient(#D8D8D8, white);
+    border-right: black solid 0px;
+    border-bottom: black solid 0px;
+    color: red;
+}
+
+#btnMostRead {
+    position: absolute;
+    top: 1125;
+    left: 1071;
+    height: 25;
+    background: linear-gradient(#D8D8D8, white);
+    border-right: 0px;
+    border-bottom: 0px;
+}
+
+#tableDown {
+    position: relative;
+    top: 300;
+    width: 968px;
+    height: 370px;
+    text-align: left;
+    font-size: 20px;
+    background: linear-gradient(rgb(173, 3, 33), #DF3A01);
+}
+
+#ringer {
+    width: 160;
+    margin: 30;
+    text-align: right;
+}
+
+#ringer p {
+    margin: 0;
+    position: relative;
+    right: 10;
+}
+
+#rainbow {
+    position: relative;
+    float: left;
+    top: 5px;
+    left: 21px;
+    width: 134px;
+    height: 10px;
+}
+
+.listTitle {
+    position: relative;
+    color: white;
+    left: 10px;
+    top: -40;
+    font-size: 15;
+    width: 110;
+}
+
+#titleUfokusu {
+    position: relative;
+    color: white;
+    left: 10px;
+    top: -60;
+    font-size: 15;
+    width: 110;
+}
+
+#titleRinger {
+    position: relative;
+    color: white;
+    left: 10px;
+    top: -70;
+    font-size: 15;
+    width: 110;
+}
+
+#titleAO {
+    position: relative;
+    color: white;
+    left: 10px;
+    top: -30;
+    font-size: 15;
+    width: 110;
+}
+
+
+.list ul {
+    list-style-type: none;
+    width: 110;
+    position: relative;
+    top: -30;
+}
+
+.list ul li {
+    margin: -5;
+}
+
+.list ul li a {
+    position: relative;
+    left: -25px;
+    font-size: 11px;
+    text-decoration: none;
+    color: white;
+}
+
+.list ul li a:hover {
+    text-decoration: underline;
+}
+
+#listUfokusu ul {
+    list-style-type: none;
+    width: 110;
+    position: relative;
+    top: -49;
+}
+
+#listUfokusu ul li {
+    margin: -5;
+}
+
+#listUfokusu ul li a {
+    position: relative;
+    left: -25px;
+    font-size: 11px;
+    text-decoration: none;
+    color: white;
+}
+
+#listUfokusu ul li a:hover {
+    text-decoration: underline;
+}
+
+
+#listRinger ul {
+    list-style-type: none;
+    width: 110;
+    position: relative;
+    top: -70;
+}
+
+#listRinger ul li {
+    margin: -5;
+}
+
+#listRinger ul li a {
+    position: relative;
+    left: -25px;
+    font-size: 11px;
+    text-decoration: none;
+    color: white;
+}
+
+#listRinger ul li a:hover {
+    text-decoration: underline;
+}
+
+#listAO ul {
+    list-style-type: none;
+    width: 110;
+    position: relative;
+    top: -15;
+}
+
+#listAO ul li {
+    margin: -5;
+}
+
+#listAO ul li a {
+    position: relative;
+    left: -25px;
+    font-size: 11px;
+    text-decoration: none;
+    color: white;
+}
+
+#listAO ul li a:hover {
+    text-decoration: underline;
+}
+
+
+#bottomLink {
+    position: relative;
+    float: left;
+    top: 25px;
+    left: 180px;
+}
+
+#bottomLink ul {
+    list-style-type: none;
+}
+
+#bottomLink ul li {
+    margin: 4px 0px 0px 0px;
+    display: inline;
+}
+
+#bottomLink ul li a {
+    font-family: tahoma, sans-serif;
+    font-size: 11px;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 5px 0px 0px;
+    border-right: 2px solid #D8D8D8;
+}
+
+#bottomLink ul li a:hover {
+    text-decoration: underline;
+}
